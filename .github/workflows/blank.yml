@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run `import` command 🚀
-        uses: suhasparameshwara/cli-repo@Test
+        uses: suhasparameshwara/cli-repo@1.0
         with:
           d360clitestinit: apidocs --apiKey=TvrDSpEEHxJVgfim9GbqpyDc0jxioqHKhPrtR2Mkk2PjZxQgfomn2SUP8BIKwv6Kenutl8MaNjptGacRL4Et7EhJfSu5HmGbL2idXyVwSp6IFsjdYEy3zs667po3RSf1AftFZEkWt824sSTujCyUYQ== --versionId=714bf109-7d21-4df8-9515-396a98d559ff
