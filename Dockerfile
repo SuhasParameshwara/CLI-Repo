@@ -1,7 +1,11 @@
-FROM node:16-alpine
+FROM node:16-alpine as builder
 
 COPY . /d360clitestinit
 
-RUN cd /d360clitestinit && npm ci && npm run build
+RUN cd /d360clitestinit && npm ci && npm run build && npx pkg . --target host --out-path exe
 
-CMD ["sh", "-c", "/d360clitestinit/bin/d360clitestinit $INPUT_RDME"]
+FROM alpine:3.14
+
+COPY --from=builder /d360clitestinit/exe /exe
+
+ENTRYPOINT ["sh", "-c", "/exe/d360clitestinit $INPUT_RDME"]
