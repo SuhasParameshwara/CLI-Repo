@@ -17,7 +17,7 @@
           "AdminActions"
         ],
         "summary": "Get all admin actions that match the specified complex filter",
-        "operationId": "AdminActions_Filterssss",
+        "operationId": "AdminActions_Filtersssss",
         "consumes": [
           "application/json-patch+json",
           "application/json",
