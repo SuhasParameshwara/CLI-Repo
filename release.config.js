@@ -1,6 +1,6 @@
 module.exports = {
     branches: ["releases", { name: "beta", channel: "beta", prerelease: true }],
-    repositoryUrl: "https://dev.azure.com/kovai/Kovai.Document360/_git/Editor360",
+    repositoryUrl: "https://github.com/SuhasParameshwara/CLI-Repo",
     plugins: [
       "@semantic-release/commit-analyzer",
       {
