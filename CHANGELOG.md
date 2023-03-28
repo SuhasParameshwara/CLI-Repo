@@ -1,3 +1,10 @@
+## [1.1.4-next.3](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4-next.2...v1.1.4-next.3) (2023-03-28)
+
+
+### Bug Fixes
+
+* added release config ([3459d53](https://github.com/SuhasParameshwara/CLI-Repo/commit/3459d53c204545fc23114729b44bd74ece844776))
+
 ## [1.1.4-next.2](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4-next.1...v1.1.4-next.2) (2023-03-28)
 
 
