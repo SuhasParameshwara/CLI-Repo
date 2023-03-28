@@ -1,0 +1,31 @@
+branches:
+  - name: master
+    prerelease: true
+
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/changelog'
+  # `@semantic-release/npm` must be before `@semantic-release/git`
+  # so the `@semantic-release/npm` plugin can properly update the version
+  # in the package*.json files before we commit the changes in `@semantic-release/git`
+  - '@semantic-release/npm'
+  - [
+      '@semantic-release/exec'
+    ]
+  - [
+      '@semantic-release/git',
+      {
+        message: "build(release): 🚀 v${nextRelease.version} 🦉\n\n${nextRelease.notes}\n[skip ci]",
+      },
+    ]
+  - [
+      '@semantic-release/exec',
+      {
+        # Sets the next version as a GitHub Actions output parameter for usage in subsequent workflow steps
+        # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
+        'verifyReleaseCmd': 'echo nextVersion=${nextRelease.version} >> $GITHUB_OUTPUT',
+        # Lightweight alternative to `@semantic-release/github` that creates a draft GitHub release
+        'publishCmd': 'gh release create ${nextRelease.version} --draft --generate-notes',
+      },
+    ]
