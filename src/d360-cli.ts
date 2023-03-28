@@ -10,3 +10,6 @@ d360clitest(process.argv.slice(2))
         console.error(chalk.red(`\n${error.message}\n`));
         return process.exit(1);
     });
+
+
+    
