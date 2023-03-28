@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.3...v1.1.4) (2023-03-28)
+
+
+### Bug Fixes
+
+* testasd ([e6e61e5](https://github.com/SuhasParameshwara/CLI-Repo/commit/e6e61e583dc1a1f528bc3fc7dfaebb2d52c507ee))
+
 ## [1.1.3](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.2...v1.1.3) (2023-03-28)
 
 
