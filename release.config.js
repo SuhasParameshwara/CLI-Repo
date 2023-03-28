@@ -34,6 +34,12 @@ module.exports = {
                 assets: ["CHANGELOG.md"],
             },
         ],
+        [
+            "@semantic-release/exec",
+            {
+                publishCmd: 'gh release create ${nextRelease.version} --draft --generate-notes'
+            }
+        ]
     ],
 };
 
