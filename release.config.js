@@ -12,7 +12,7 @@ module.exports = {
                 { type: "fix", release: "patch" },
                 { type: "deps", release: "patch" },
                 { type: "feat", release: "minor" },
-                { type: "chore", release: "patch" },
+                { type: "chore", release: "major" },
             ],
             parserOpts: {
                 mergePattern: "^Merged PR (\\d+): (\\w*)(?:\\(([\\w\\$\\.\\-\\* ]*)\\))?\\: (.*)$",
