@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import { OptionDefinition } from "command-line-usage";
 
 import configStore from "../api/config-store";
