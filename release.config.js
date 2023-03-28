@@ -6,19 +6,13 @@ module.exports = {
         {
             preset: "conventionalcommits",
             releaseRules: [
-                { breaking: true, release: "major" },
+                { type: "chore", release: "major" },
                 { type: "docs", scope: "README", release: "patch" },
                 { type: "perf", release: "patch" },
                 { type: "fix", release: "patch" },
                 { type: "deps", release: "patch" },
                 { type: "feat", release: "minor" },
-                { type: "chore", release: "major" },
-            ],
-            parserOpts: {
-                mergePattern: "^Merged PR (\\d+): (\\w*)(?:\\(([\\w\\$\\.\\-\\* ]*)\\))?\\: (.*)$",
-                mergeCorrespondence: ["id", "type", "scope", "subject"],
-                noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-            },
+            ]
         },
         "@semantic-release/release-notes-generator",
         [
