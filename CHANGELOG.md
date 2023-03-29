@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.5...v1.1.6) (2023-03-29)
+
+
+### Bug Fixes
+
+* release config ([ab8113d](https://github.com/SuhasParameshwara/CLI-Repo/commit/ab8113dbcb7d77d2e154197ba6bc882e546e2b19))
+
 ## [1.1.5](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4...v1.1.5) (2023-03-29)
 
 
