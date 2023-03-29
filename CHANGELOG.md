@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4...v1.1.5) (2023-03-29)
+
+
+### Bug Fixes
+
+* tsconfig json ([e3d3f4c](https://github.com/SuhasParameshwara/CLI-Repo/commit/e3d3f4ce74ca6abae8ca683bcf696e072f977636))
+
 ## [1.1.4](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.3...v1.1.4) (2023-03-28)
 
 
