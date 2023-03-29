@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.3.0...v1.4.0) (2023-03-29)
+
+
+### Bug Fixes
+
+* config store ([ad52ab0](https://github.com/SuhasParameshwara/CLI-Repo/commit/ad52ab092e2fd1cb1693e1808a64a0a542ec91be))
+
+
+### Features
+
+* config store ([c9ed047](https://github.com/SuhasParameshwara/CLI-Repo/commit/c9ed047c4a1997109d06e73421bcd7a44382674a))
+
 # [1.3.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.2.0...v1.3.0) (2023-03-29)
 
 
