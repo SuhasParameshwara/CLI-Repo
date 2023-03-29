@@ -1,5 +1,5 @@
 module.exports = {
-    branches: ["main", {name: "next", prerelease: true}],
+    branches: ["main", { name: "next", prerelease: true }],
     repositoryUrl: "https://github.com/SuhasParameshwara/CLI-Repo.git",
     plugins: [
         "@semantic-release/commit-analyzer",
@@ -15,6 +15,7 @@ module.exports = {
             ]
         },
         "@semantic-release/release-notes-generator",
+        "@semantic-release/npm",
         [
             "@semantic-release/changelog",
             {
@@ -34,7 +35,11 @@ module.exports = {
                 assets: ["CHANGELOG.md"],
             },
         ],
+        [
+            "@semantic-release/exec",
+            {
+                publishCmd: 'gh release create ${nextRelease.version} --draft --generate-notes'
+            }
+        ]
     ],
 };
-
-
