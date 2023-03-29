@@ -1,3 +1,15 @@
+# [1.2.0-next.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4-next.4...v1.2.0-next.1) (2023-03-29)
+
+
+### Bug Fixes
+
+* tsconfig json ([47e92cb](https://github.com/SuhasParameshwara/CLI-Repo/commit/47e92cb7f9dc226546d6f72a14b8834932cf9ab7))
+
+
+### Features
+
+* new feature ([e739c1f](https://github.com/SuhasParameshwara/CLI-Repo/commit/e739c1f74aa30f6c53d3f5fa55d2c6872bcba8ec))
+
 ## [1.1.4-next.4](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.4-next.3...v1.1.4-next.4) (2023-03-28)
 
 
