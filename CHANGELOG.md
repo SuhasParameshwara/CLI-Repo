@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.6...v1.2.0) (2023-03-29)
+
+
+### Features
+
+* **new feature:** short desc ([96f9fb9](https://github.com/SuhasParameshwara/CLI-Repo/commit/96f9fb9d268254b6b80b92a330b93fee795d2538))
+
 ## [1.1.6](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.5...v1.1.6) (2023-03-29)
 
 
