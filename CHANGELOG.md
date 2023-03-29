@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.2.0...v1.3.0) (2023-03-29)
+
+
+### Features
+
+* new feature ([9fe5598](https://github.com/SuhasParameshwara/CLI-Repo/commit/9fe559872c740f8b59702c48251fdf006ce9a4bd))
+
 # [1.2.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.1.6...v1.2.0) (2023-03-29)
 
 
