@@ -11,5 +11,3 @@ d360clitest(process.argv.slice(2))
         return process.exit(1);
     });
 
-
-    
