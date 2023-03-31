@@ -11,7 +11,6 @@ export default function getConfig(): EnvironmentConfig {
     apiKey: process.env.D360_API_KEY || configStore.get('apiKey'),
     apihubUrl: process.env.D360_APIHUB_URL || configStore.get('apihubUrl')
   }
-  let value = "123";
   return environmentConfig;
 }
 

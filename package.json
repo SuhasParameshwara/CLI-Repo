@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "npm run lint && tsc"
   },
   "bin": {
     "d360clitestinit": "bin/d360clitestinit"
@@ -69,7 +69,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{ts}": [
+    "src/*.{ts}": [
       "eslint . --fix",
       "prettier --write ."
     ]
