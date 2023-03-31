@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.0...v1.4.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* resolved eslint warnings ([35f971f](https://github.com/SuhasParameshwara/CLI-Repo/commit/35f971fdf798f5130d14465e99abf5439a097587))
+
 # [1.4.0](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.3.0...v1.4.0) (2023-03-29)
 
 
