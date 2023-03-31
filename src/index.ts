@@ -13,6 +13,7 @@ import BaseCommand from './commands/baseCommand';
 import { load, loadGlobalHelpCommand, loadHelpCommand } from './commands/mainCommand';
 import { DefaultMainArgs } from './constants';
 process.env.NODE_CONFIG_DIR = directory;
+console.log('test')
 // Uncomment below while running via localhost api
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
