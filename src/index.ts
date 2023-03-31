@@ -31,11 +31,11 @@ export default function d360clitest(processArgs: NodeJS.Process['argv']) {
         if (command == "help") {
             return Promise.resolve(loadGlobalHelpCommand());
         }
-        let currentCommand: BaseCommand = load(command);
+        const currentCommand: BaseCommand = load(command);
         if (argsFromCli.help) {
             return Promise.resolve(loadHelpCommand(currentCommand));
         }
-        let currentCommandArgs = cliArgs(currentCommand.args, { argv: argsFromCli._unknown || [] });
+        const currentCommandArgs = cliArgs(currentCommand.args, { argv: argsFromCli._unknown || [] });
         if (!currentCommandArgs.apiKey)
             currentCommandArgs.apiKey = getAPIKey();
         if (!currentCommandArgs.apihubUrl)

@@ -1,5 +1,5 @@
 module.exports = {
-  // eslint-disable-next-line global-require
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   cli: require('../package.json').name,
   env: {
     eu_baseUrl: "https://apihub.dev.document360.net",

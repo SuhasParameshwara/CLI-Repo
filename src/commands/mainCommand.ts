@@ -56,8 +56,8 @@ export function loadHelpCommand(command: BaseCommand) {
 
 function setAllCommandCategories() {
     Object.entries(commands).forEach(currentCommand => {
-        var command = new currentCommand[1]();
-        var commandDetail = AllCommandDetails.find(commandDetail => commandDetail.commandCategoryName == command.commandCategory);
+        const command = new currentCommand[1]();
+        const commandDetail = AllCommandDetails.find(commandDetail => commandDetail.commandCategoryName == command.commandCategory);
         commandDetail.commands.push({ name: command.command, description: command.description });
     });
 }

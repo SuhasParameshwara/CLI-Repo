@@ -1,15 +1,11 @@
-import fs from 'fs';
-import FormData from 'form-data';
 import prompts from 'prompts';
 import importFlow from '../../api/apidocs/import';
+import findOasFilesInCurrentDirectory from '../../api/initOas';
 import { CommandCategories } from '../../constants';
 import { isCI } from '../../helper/isCI';
-import { isURL } from '../../helper/isURL';
 import terminalWrapper from '../../helper/terminalWrapper';
 import { ImportCommandOptions } from "../../models";
 import BaseCommand from "../baseCommand";
-import { Blob, File } from "buffer";
-import findOasFilesInCurrentDirectory from '../../api/initOas';
 
 export default class APIDocsCommand extends BaseCommand {
 
@@ -78,7 +74,7 @@ export default class APIDocsCommand extends BaseCommand {
         }
         await super.run(options);
         prompts.override(options);
-        const response = await importFlow(options);
+        await importFlow(options);
         return Promise.resolve("");
     }
 }
