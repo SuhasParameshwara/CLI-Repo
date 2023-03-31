@@ -68,5 +68,10 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": "eslint ."
+  "lint-staged": {
+    "**/*.{ts}": [
+      "eslint . --fix",
+      "prettier --write ."
+    ]
+  }
 }
