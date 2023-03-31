@@ -7,7 +7,8 @@
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "lint": "eslint .",
-    "build": "npm run lint && tsc"
+    "build": "npm run lint && tsc",
+    "execute-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
   },
   "bin": {
     "d360clitestinit": "bin/d360clitestinit"
@@ -69,9 +70,8 @@
     }
   },
   "lint-staged": {
-    "src/*.{ts}": [
-      "eslint . --fix",
-      "prettier --write ."
+    "**/*.{ts,html}": [
+      "eslint ."
     ]
   }
 }
