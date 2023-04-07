@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.1...v1.4.2) (2023-04-07)
+
+
+### Bug Fixes
+
+* updated publish yml ([1fe4385](https://github.com/SuhasParameshwara/CLI-Repo/commit/1fe438550fc1be6a383ae58d426ffae103e240d8))
+
 ## [1.4.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.0...v1.4.1) (2023-03-31)
 
 
