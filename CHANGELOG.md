@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.2...v1.4.3) (2023-04-07)
+
+
+### Bug Fixes
+
+* asdasd ([4a6e86e](https://github.com/SuhasParameshwara/CLI-Repo/commit/4a6e86eaf2a207dd811544b5fd993f32a9bb2380))
+
 ## [1.4.2](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.1...v1.4.2) (2023-04-07)
 
 
