@@ -1,3 +1,21 @@
+## [1.4.5-next.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.4...v1.4.5-next.1) (2023-04-19)
+
+
+### Bug Fixes
+
+* const ([0053337](https://github.com/SuhasParameshwara/CLI-Repo/commit/0053337ff02a56f03b88e8ba65a40da7db5e2dcf))
+
+## [1.4.4](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.3...v1.4.4) (2023-04-19)
+
+
+### Bug Fixes
+
+* bump version ([1e19792](https://github.com/SuhasParameshwara/CLI-Repo/commit/1e19792b70a008f6c4dfd1adbc2203034d9841db))
+* bump version ([27d3c2e](https://github.com/SuhasParameshwara/CLI-Repo/commit/27d3c2e21ebbc2fd291a86924a7466556d901694))
+* bump version ([0524a91](https://github.com/SuhasParameshwara/CLI-Repo/commit/0524a918d17e26fe18f4b6b69158892d270db548))
+* bump version ([4b64a3b](https://github.com/SuhasParameshwara/CLI-Repo/commit/4b64a3bd9e1c32958287f87d76a591dd60438c7c))
+* version bump ([c5b32b4](https://github.com/SuhasParameshwara/CLI-Repo/commit/c5b32b4a70ed19dd62c1f40d8995c2ae98e04a2c))
+
 ## [1.4.4-next.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.3...v1.4.4-next.1) (2023-04-19)
 
 ### Bug Fixes
