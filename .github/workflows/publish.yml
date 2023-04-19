@@ -10,10 +10,11 @@ on:
       - next
   
   pull_request:
-    types: 
-      - closed
+    types:
+      - opened
     branches:
       - main
+      - next
 
 jobs:
   build:
