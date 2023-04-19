@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.6...v1.4.7) (2023-04-19)
+
+
+### Bug Fixes
+
+* Updated package name ([516fc9c](https://github.com/SuhasParameshwara/CLI-Repo/commit/516fc9c4ecc1e84330d68943c6ac434663fa141a))
+
 ## [1.4.6](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.5...v1.4.6) (2023-04-19)
 
 
