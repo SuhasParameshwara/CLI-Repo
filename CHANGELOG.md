@@ -5,6 +5,15 @@
 
 * updated file ([fef6303](https://github.com/SuhasParameshwara/CLI-Repo/commit/fef6303dfcd33690c8a9d97b1d794ea86b9b9a35))
 * updated file ([c7ae4a6](https://github.com/SuhasParameshwara/CLI-Repo/commit/c7ae4a62d3db233dbdf0650232d4a494559a13aa))
+* Updated file ([afd774e](https://github.com/SuhasParameshwara/CLI-Repo/commit/afd774eb7b288ace19eb1104f2501161ee30b9e0))
+
+## [1.4.6](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.5...v1.4.6) (2023-04-19)
+
+
+### Bug Fixes
+
+* updated file ([fef6303](https://github.com/SuhasParameshwara/CLI-Repo/commit/fef6303dfcd33690c8a9d97b1d794ea86b9b9a35))
+* updated file ([c7ae4a6](https://github.com/SuhasParameshwara/CLI-Repo/commit/c7ae4a62d3db233dbdf0650232d4a494559a13aa))
 
 ## [1.4.6](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.5...v1.4.6) (2023-04-19)
 
