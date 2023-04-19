@@ -24,3 +24,4 @@ export const AllCommandDetails: CommandCategoryDetails[] = [
 export enum CommandCategories {
     apidocs = "apidocs"
 }
+
