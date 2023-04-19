@@ -17,6 +17,8 @@ console.log('test')
 // Uncomment below while running via localhost api
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
+
+
 export default function d360clitest(processArgs: NodeJS.Process['argv']) {
     const argsFromCli = cliArgs(DefaultMainArgs, { partial: true, argv: processArgs });
     const argsCommand = argsFromCli.command || false;
