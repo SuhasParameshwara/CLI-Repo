@@ -51,3 +51,4 @@ export default function d360clitest(processArgs: NodeJS.Process['argv']) {
     }
 
 }
+
