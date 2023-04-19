@@ -1,3 +1,10 @@
+## [1.4.5-next.2](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.5-next.1...v1.4.5-next.2) (2023-04-19)
+
+
+### Bug Fixes
+
+* bump version ([edfca5a](https://github.com/SuhasParameshwara/CLI-Repo/commit/edfca5af627bdc0871a1257ea1ed27b356e1fffd))
+
 ## [1.4.5-next.1](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.4...v1.4.5-next.1) (2023-04-19)
 
 
