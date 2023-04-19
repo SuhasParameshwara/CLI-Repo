@@ -18,7 +18,6 @@ export default function getConfig(): EnvironmentConfig {
 
 
 
-
 export function getApiHubUrl(): string {
   return process.env.D360_APIHUB_URL || configStore.get('apihubUrl');
 }
