@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.4...v1.4.5) (2023-04-19)
+
+
+### Bug Fixes
+
+* Updated initfile ([1cea1aa](https://github.com/SuhasParameshwara/CLI-Repo/commit/1cea1aab80bdae1c66381fc656cde748db7d1c3e))
+
 ## [1.4.4](https://github.com/SuhasParameshwara/CLI-Repo/compare/v1.4.3...v1.4.4) (2023-04-19)
 
 
