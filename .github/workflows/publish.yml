@@ -10,8 +10,6 @@ on:
       - next
   
   pull_request:
-    types:
-      - opened
     branches:
       - main
       - next
